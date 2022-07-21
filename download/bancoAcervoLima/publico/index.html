@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultoria de Cabelos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/icon-hair.png" type="image/x-icon">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="navbar font-p-2">
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Quem somos</a>
+      <a href="texturas.html">Conheça seu cabelo</a>
+      <a href="#no-poo">No Poo</a>
+      <a href="#low-poo">Low Poo</a>
+      <a href="#produtos">Produtos do mês</a>
+      <a href="#clientes">Clientes 💜</a>
+      <a href="#perguntas">Perguntas frequentes</a>
+      <a href="formSubmitted.html">Agende sua consultoria</a>
+    </div>
+
+  </header>
+
+  <!-- Carrossel-->
+  <div class="slideshow-container carrossel">
+    <div class="mySlides fade">
+      <img src="img/crespa.jpg" alt="mulher">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/loira.jpg" alt="mulher">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/colorida.jpg" alt="mulher">
+    </div>
+  </div>
+
+  <div class="dots">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+
+  <main>
+    <article class="container">
+      <div class="tecnicas" id="no-poo">
+        <h1 class="titulo-h1">Saiba tudo sobre No Poo</h1>
+        <p>A técnica no poo revoluciona a forma de limpar o cabelo com produtos condicionantes livres de surfactantes, isto é, agentes utilizados nos shampoos para higienizar o couro cabeludo e os fios sem remover a camada lipídica responsável pela proteção natural. O surfactante mais comum é o Lauril Sulfato de Sódio e ele tem como função eliminar tudo o que está no fio, até mesmo essa barreira nutritiva.</p>
+
+        <p>A rotina no poo tem sido bastante utilizada por quem tem cabelos cacheados ou crespos por manter a hidratação e a nutrição para cachos mais definidos. Entretanto, ela é indicada para todos os tipos de cabelo, inclusive os coloridos e com mechas por não causar o desbotamento da cor.</p>
+
+        <p>Mas atenção: é necessário utilizar produtos liberados para no poo desde a limpeza até a finalização.</p>
+        <p> Confira a seguir como fazer no poo:</p><span id="pontinhos">...</span><span id="mais"> 
+
+        <p>● Após lavar seu cabelo com sulfato, use o produto no poo escolhido para condicionar os fios.
+          Os cuidados na hora de escolher os produtos não param por aí.</p>
+        <p>● Você deverá optar por leave-in e cremes de pentear, máscaras, etc. livres de petrolatos e silicones em suas composições.</p>
+
+        <p> ● Mas calma: caso você precise usar algum produto com petrolato ou silicone, basta você lavar o cabelo com shampoo com sulfato novamente e retornar ao no poo.</p>
+
+        <p> Viu como é fácil fazer no poo? Com essas dicas, seu cabelo ficará muito mais nutrido, com os cachos definidos, com a cor duradoura, brilhante e macio 💜</p>
+
+        <h2>Para saber mais sobre a técnica Low Poo<a href="#low-poo"> clique aqui</a></h2>
+      </span>
+      <button onclick="leiaMais()" id="btn" class="btn-leiamais">leia mais</button>
+      </div>
+
+      <hr class="container">
+
+      <div class="tecnicas" id="low-poo">
+        <h1 class="titulo-h1 titulo-low">Saiba tudo sobre Low Poo</h1>
+        <p>A tradução do termo Low Poo significa “menos shampoo”, ou seja, é um estímulo para tratar os fios de uma forma mais natural, sem aditivos químicos que podem ser nocivos ao couro cabeludo.
+
+        <blockquote> “Uma boa forma de começar é adicionar água mineral a cada aplicação de shampoo. Isso dá uma boa reduzida na quantidade de shampoo!”, fala o hair stylist Evandro Angelo. “Vale também munir-se de shampoos específicos, isentos de derivados do petróleo”, continua.</blockquote>
+
+        <p>Esta forma de cuidado com o cabelo sugere a diminuição de alguns compostos específicos que não são benéficos para os fios. São os principais:</p></p><span id="pontinhos">...</span><span id="mais"> 
+
+        <p>● silicone — pois impede a hidratação, já que pode entupir as cutículas;</p>
+        <p>● petrolatos — como o silicone, também ajuda a criar uma capa que impede os fios de receberem os nutrientes necessários;</p>
+        <p>● sulfato — é um limpante intenso que pode retirar toda a sujeira, bem como a hidratação já feita no seu cabelo.</p>
+
+        <p>Muito fala-se sobre as cacheadas, mas a boa notícia é que o Low Poo é para todas as pessoas que desejam cuidar dos fios sem aditivos químicos que podem ser nocivos à saúde capilar.
+        <blockquote>“O método é indicado também para quem tem cabelos finos ou afro”, diz Evandro.</blockquote>
+
+        <h2>Para saber mais sobre a técnica No Poo<a href="#no-poo"> clique aqui</a></h2>
+      </span></p>
+      <button onclick="leiaMais()" id="btn" class="btn-leiamais">leia mais</button>
+      </div>
+      </div>
+    </article>
+
+    <!-- produtos -->
+    <nav class="container" id="produtos">
+      <h1 class="produtos-h1 titulo-h1">Os queridinhos do mês No e Low Poo</h1>
+      <ul class="lista-produtos">
+        <li class="produtos"><a href="#">
+            <img class="icon-heart" src="img/icon-heart.png" alt="icone coração">
+            <img src="img/lola1.png" alt="Produto Lola">
+            <div class="produtos-item">
+              <p>Morte Súbita</p>
+              <p class="p-2 font-p-4">R$ 48,90</p>
+          </a>
+          <button class="botao-comprar">Comprar</button>
+          </div>
+        </li>
+
+        <li class="produtos"><a href="#">
+            <img class="icon-heart" src="img/icon-heart.png" alt="icone coração">
+            <img src="img/lola2.png" alt="Produto Lola">
+            <div class="produtos-item">
+              <p>Acidificante</p>
+              <p class="font-p-4">R$ 54,90</p>
+          </a>
+          <button class="botao-comprar">Comprar</button>
+          </div>
+        </li>
+
+        <li class="produtos"><a href="#">
+            <img class="icon-heart" src="img/icon-heart.png" alt="icone coração">
+            <img src="img/lola7.png" alt="Produto Lola">
+            <div class="produtos-item">
+              <p>Shampoo Argan</p>
+              <p class="font-p-4">R$ 46,90</p>
+          </a>
+          <button class="botao-comprar">Comprar</button>
+          </div>
+        </li>
+
+        <li class="produtos"><a href="#">
+            <img class="icon-heart" src="img/icon-heart.png" alt="icone coração">
+            <img src="img/lola4.png" alt="Produto Lola">
+            <div class="produtos-item">
+              <p>Bendita Ghee</p>
+              <p class="font-p-4">R$ 66,90</p>
+          </a>
+          <button class="botao-comprar">Comprar</button>
+          </div>
+        </li>
+
+        <li class="produtos"><a href="#">
+            <img class="icon-heart" src="img/icon-heart.png" alt="icone coração">
+            <div class="img">
+              <img src="img/lola5.png" alt="Produto Lola">
+            </div>
+            <div class="produtos-item">
+              <p>Danos Vorazes</p>
+              <p class="font-p-4">R$ 42,90</p>
+          </a>
+          <button class="botao-comprar">Comprar</button>
+          </div>
+        </li>
+
+        <li class="produtos"><a href="#">
+            <img class="icon-heart" src="img/icon-heart.png" alt="icone coração">
+            <img src="img/lola6.png" alt="Produto Lola">
+            <div class="produtos-item">
+              <p>Tônico Densidade</p>
+              <p class="font-p-4">R$ 38,90</p>
+          </a>
+          <button class="botao-comprar">Comprar</button>
+          </div>
+        </li>
+
+        <li class="produtos"><a href="#">
+            <img class="icon-heart" src="img/icon-heart.png" alt="icone coração">
+            <img src="img/lola3.png" alt="Produto Lola">
+            <div class="produtos-item">
+              <p>Chá Latte</p>
+              <p class="font-p-4">R$ 16,90</p>
+          </a>
+          <button class="botao-comprar">Comprar</button>
+          </div>
+        </li>
+
+        <li class="produtos"><a href="#">
+            <img class="icon-heart" src="img/icon-heart.png" alt="icone coração">
+            <img src="img/lola8.png" alt="Produto Lola">
+            <div class="produtos-item">
+              <p>Argan Oil</p>
+              <p class="font-p-4">R$ 32,90</p>
+          </a>
+          <button class="botao-comprar">Comprar</button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="container" id="clientes">
+      <h1 class="perguntas-h1 titulo-h1">Clientes</h1>
+
+      <div class="containers-galeria">
+        <div class="item-galeria w-2 h-2">
+          <a href="javascript:img1()"><img src="img/galeria-1.jpg" alt="" class="img-galeria"></a>
+          <h3 class="cliente-nome">Camila Fernandes</h3>
+        </div>
+
+        <div class="item-galeria w-2 h-1">
+          <a href="javascript:img2()"><img src="img/galeria-2.jpg" alt="" class="img-galeria"></a>
+          <h3 class="cliente-nome">Vitória Sanches</h3>
+        </div>
+
+        <div class="item-galeria w-1 h-2">
+          <a href="javascript:img3()"><img src="img/galeria-3.jpg" alt="" class="img-galeria"></a>
+          <h3 class="cliente-nome">Elisa Santos</h3>
+        </div>
+
+        <div class="item-galeria w-1 h-1">
+          <a href="javascript:img4()"><img src="img/galeria-4.jpg" alt="" class="img-galeria"></a>
+          <h3 class="cliente-nome">Ana Carolina</h3>
+        </div>
+
+        <div class="item-galeria w-2 h-2">
+          <a href="javascript:img5()"><img src="img/galeria-5.jpg" alt="" class="img-galeria"></a>
+          <h3 class="cliente-nome">Cristina Vidal</h3>
+        </div>
+
+
+        <div class="item-galeria w-1 h-2">
+          <a href="javascript:img6()"><img src="img/galeria-6.jpg" alt="" class="img-galeria"></a>
+          <h3 class="cliente-nome">Maria Luiza</h3>
+        </div>
+
+        <div class="item-galeria w-1 h-1">
+          <a href="javascript:img7()"><img src="img/galeria-7.jpg" alt="" class="img-galeria"></a>
+          <h3 class="cliente-nome">Vivian Soares</h3>
+        </div>
+
+        <div class="item-galeria w-1 h-1">
+          <a href="javascript:img8()"><img src="img/galeria-8.jpg" alt="" class="img-galeria"></a>
+          <h3 class="cliente-nome">Cléo Silva</h3>
+        </div>
+
+        <div class="item-galeria w-1 h-1">
+          <a href="javascript:img9()"><img src="img/galeria-9.jpg" alt="" class="img-galeria"></a>
+          <h3 class="cliente-nome">Lara Sousa</h3>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="container" id="perguntas">
+      <h1 class="perguntas-h1 titulo-h1">Perguntas Frequentes</h1>
+      <h3 class="pergunta">Quem pode fazer no poo?</h3>
+      <div class="resposta">
+        <p>As técnicas No e Low Poo foram idealizadas para os cabelos com curvaturas, afim de manter a definição e a saúde dos fios. É claro que os caracóis também ficam sujos com as impurezas do ambiente, mas o que você faz com o cabelo sujo? Lava! Nesta lavagem, entram os shampoos sem sulfato que removem apenas a sujeira do dia a dia e aquela bela hidratação natural pode finalmente concluir seu caminho até as pontas dos fios.</p>
+
+        <p>Isso não significa que os cabelos lisos não possam se beneficiar com esta técnica. Cabelos lisos não sofrem tanto com o ressecamento quanto o cacheado, no entanto costumam ser bastante oleosos e shampoos com sulfato podem causar efeito rebote na medida que limpam demais o couro cabeludo que acaba produzindo mais sebo para repor a oleosidade que foi perdida, com a intenção de proteger os seus cabelos expostos.</p>
+      </div>
+      <h3 class="pergunta">Quais são os benefícios do Low Poo e No Poo?</h2>
+        <div class="resposta">
+          <p>Fios menos ressecados e diminuição do frizz; <br>
+            Cabelo com aspecto mais saudável e hidratado; <br>
+            Para os crespos e cacheados uma melhor definição.</p>
+        </div>
+        <h3 class="pergunta">Uso química, posso seguir as técnicas?</h3>
+        <div class="resposta">
+          <p>Pode e deve! Muitas pessoas acham que usar essas técnicas não causam nenhum efeito aos cabelos com a químicas fortes como progressiva (botox, relaxamento etc.) ou que, ao realizar este método, a progressiva perderá o efeito.</p>
+          <p>Muito pelo contrário! Utilizar o No e Low Poo deixa o cabelo mais saudável e até mesmo aumenta a durabilidade de uma tintura por exemplo. Os shampoos suaves, diferente dos shampoos com sulfatos, causam menor remoção dos pigmentos das tinturas depositados nos fios. Ou seja, o shampoo sem sulfato é menos agressivo com os seus cabelos quimicamente tratados. </p>
+        </div>
+        <h3 class="pergunta">Como lavar o cabelo sem shampoo?</h3>
+        <div class="resposta">
+          <p>A lavagem pode ser feita de diversas formas. A maioria das pessoas preferem usar o condicionador ou creme de limpeza, com agentes de limpeza leve ou ingredientes naturais de caráter limpante que, combinados com atrito manual, podem remover as sujeiras e excesso de óleo do couro cabeludo e do cabelo sem espumar.</p>
+        </div>
+        <h3 class="pergunta">Os silicones, que são muito comuns em produtos capilares, podem ser utilizados?</h3>
+        <div class="resposta">
+          <p>Por quem faz Low Poo: Sim! Os shampoos liberados para Low Poo com agentes surfactantes conseguem remover os silicones dos fios sem problemas.</p>
+          <p>
+            Por quem faz No Poo: Parcialmente. Somente podem ser usados os silicones que são solúveis em água.</p>
+        </div>
+        <h3 class="pergunta">Porque evitar parabenos e pretolatos?</h3>
+        <div class="resposta">
+          <p>Petrolatos são substâncias derivadas do petróleo que criam a falsa impressão de saúde, maciez e brilho nos fios. No entanto, esta camada selante oculta a verdadeira saúde dos cabelos, que costuma estar mal tratado por baixo da química. Alguns silicones também são banidos pelo mesmo motivo.</p>
+          <p>Parabenos são químicos altamente comuns na indústria cosmética, utilizados com o objetivo de evitar a proliferação de microrganismos, o que aumenta a vida útil dos produtos.</p>
+          <p>O problema é que os parabenos elevam o risco de câncer, sendo um químico não muito saudável para uso prolongado.</p>
+        </div>
+        <h3 class="pergunta">Vou ter que lavar mais vezes o cabelo?</h3>
+        <div class="resposta">
+          <p>Na realidade, estas técnicas reduzem a necessidade de lavagem.</p>
+          <p>O que ocorre é que os shampoos com sulfatos retiram tanto os óleos naturais necessários que o organismo tenta desesperadamente repor esta perda, fenômeno conhecido como “efeito rebote”.</p>
+        </div>
+        <h3 class="pergunta">Como será a aparência do meu cabelo?</h3>
+        <div class="resposta">
+          <p>Esta técnica é muito conhecida por dar definição aos cabelos cacheados, deixando-os mais disciplinados e consistentes (famoso cacho mola, que não se desfaz).
+          <p>
+          <p> No entanto, as lisas também podem se beneficiar com ela. A disciplina se dá por meio do tratamento de reparação do ressecamento e modelagem aliada. Para os cabelos lisos, os benefícios serão fios mais soltos e aspecto de liso mais natural.</p>
+          <p> É importante dizer que o uso contínuo de pranchas e secadores pode influenciar na disciplina do cabelo.</p>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <ul class="formasdepagamento">
+      <li><img src="img/img47.png" alt="cartão de crédito" title="Cartão Mastercard"></li>
+      <li><img src="img/img48.png" alt="cartão de crédito" title="Cartão Visa"></li>
+      <li><img src="img/img49.png" alt="cartão de crédito" title="Cartão Elo"></li>
+      <li><img src="img/img50.png" alt="cartão de crédito" title="Cartão Hipercard"></li>
+    </ul>
+
+    <ul class="footer-contato">
+      <li>Consultoria de cabelos
+      <li>
+      <li>Rua Maria Sodré, 645</li>
+      <li>Santana - SP</li>
+      <li>consultoriadecabelos@consultoria.com.br</li>
+      <li><a href="#">WhatsApp (11)99999-6666</a></li>
+    </ul>
+  </footer>
+
+  <div class="btn-subir">
+    <button onclick="topo()" id="myBtn" title="Voltar ao topo">Subir</button>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultoria de Cabelos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="global.css">
+  <link rel="shortcut icon" href="img/icon-hair.png" type="image/x-icon">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="navbar font-p-2">
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Quem somos</a>
+      <a href="texturas.html">Conheça seu cabelo</a>
+      <a href="contato.html">Agende sua consultoria</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="contato container">
+      <section class="contato-dados">
+        <h2 class="font-p-1 cor-cinza-claro">Agende sua consultoria</h2>
+        <div class="contato-tel font-p-2">
+          <a href="#">consultoriadecabelo@consultoria.com</a>
+          <a href="#">(11)99999-6666</a>
+        </div>
+
+        <div class="contato-end font-p-2">
+          <p>Rua Maria Sodré, 645</p>
+          <p>Santana - SP</p>
+        </div>
+
+        <div class="contato-redes">
+          <a href="#">
+            <img src="img/icon-instagram.png" alt="Instagram">
+          </a>
+
+          <a href="#">
+            <img src="img/icon-facebook.png" alt="Facebook">
+          </a>
+
+          <a href="#">
+            <img src="img/icon-whatsapp.png" alt="Youtube">
+          </a>
+        </div>
+      </section>
+
+      <section class="contato-formulario">
+
+        <form action="/formFillUp" method="POST" class="form">
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+          </div>
+
+          <div>
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone" placeholder="(11)99999-9999" required>
+          </div>
+
+          <div class="col-2">
+            <label for="consultora">Consultora</label>
+            <input type="text" id="consultora" name="consultora" placeholder="Digite o nome da consultora" required>
+          </div>
+
+          <div class="col-2">
+            <label for="tratamento">Tratamento</label>
+            <input type="text" id="tratamento" name="tratamento" placeholder="Digite o nome do tratamento" required>
+          </div>
+          <div>
+        
+            <button type="submit" onclick="mostrar()" class="botao" id="mensagem">
+              Enviar mensagem
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+  </footer>
+ 
+</body>
+
+</html>
